@@ -21,3 +21,4 @@ Route::get('/home', 'HomeController@index');
 
 Route::resource('/u', 'UrlController');
 Route::resource('/p', 'PasteController');
+Route::resource('/f', 'FileController');

@@ -48,6 +48,7 @@
                     @if ( ! Auth::guest())
                         &nbsp;<li><a href="{{ url('/u') }}">URL</a></li>
                         &nbsp;<li><a href="{{ url('/p') }}">Paste</a></li>
+                        &nbsp;<li><a href="{{ url('/f') }}">Files</a></li>
                     @endif
                 </ul>
 
