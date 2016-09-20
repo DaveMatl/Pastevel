@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Pastevel - URL Shortener, Image Sharing, Paste-bin</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -80,7 +80,9 @@
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://github.com//pastevel">GitHub</a>
+                    <a href="https://bitbucket.org/wdmatl/pastevel">Source Code</a>
+                    <a href="https://bitbucket.org/wdmatl/pastevel/issues?status=new&status=open">Issues</a>
+
                 </div>
             </div>
         </div>
