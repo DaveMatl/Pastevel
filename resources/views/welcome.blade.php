@@ -79,10 +79,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://bitbucket.org/wdmatl/pastevel">Source Code</a>
+                    <a href="https://bitbucket.org/wdmatl/pastevel">Readme & Source Code</a>
                     <a href="https://bitbucket.org/wdmatl/pastevel/issues?status=new&status=open">Issues</a>
-
                 </div>
             </div>
         </div>

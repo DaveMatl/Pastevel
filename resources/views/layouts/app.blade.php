@@ -13,6 +13,9 @@
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+
     <!-- Scripts -->
     <script>
         window.Laravel = <?php echo json_encode([
@@ -43,7 +46,8 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     @if ( ! Auth::guest())
-                    &nbsp;<li><a href="{{ url('/u') }}">URL</a></li>
+                        &nbsp;<li><a href="{{ url('/u') }}">URL</a></li>
+                        &nbsp;<li><a href="{{ url('/p') }}">Paste</a></li>
                     @endif
                 </ul>
 
@@ -83,5 +87,7 @@
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+
+    @yield('scripts')
 </body>
 </html>
