@@ -79,8 +79,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://bitbucket.org/wdmatl/pastevel">Readme & Source Code</a>
-                    <a href="https://bitbucket.org/wdmatl/pastevel/issues?status=new&status=open">Issues</a>
+                    <a href="https://github.com/DaveMatl/Pastevel">GitHub</a>
+                    <a href="https://github.com/DaveMatl/Pastevel/issues">Issues</a>
                 </div>
             </div>
         </div>
