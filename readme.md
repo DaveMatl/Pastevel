@@ -4,6 +4,12 @@ Pastevel is a web application providing URL shortening, paste-bin, and image sha
 
 Pastevel is written using the Laravel web framework.
 
+## Installing
+
+This is a very standard Laravel app. This section is lacking, but this should be completely accurate:
+
+https://laravel.com/docs/5.3/installation#configuration
+
 ## Contributing
 
 Pull requests are accepted.
