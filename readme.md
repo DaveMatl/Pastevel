@@ -10,6 +10,8 @@ This is a very standard Laravel app. This section is lacking, but this should be
 
 https://laravel.com/docs/5.3/installation#configuration
 
+You'll need these post-deploy hooks if you're using Envoyer.io.... TBD
+
 ## Contributing
 
 Pull requests are accepted.
