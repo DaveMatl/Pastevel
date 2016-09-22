@@ -12,6 +12,10 @@
 */
 
 Route::get('/', function () {
+    if (Auth::check()) {
+        return redirect(url('/home'));
+    }
+
     return view('welcome');
 });
 
