@@ -23,6 +23,12 @@
 
 @section('scripts.header')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.css">
+    <style>
+        #myDropzone { margin: 3rem; }
+        .dropzone { min-height:120px; border: 2px dashed #0087F7; border-radius: 10px; background: white; }
+        .dropzone .dz-message { font-weight: 400; }
+        .dropzone .dz-message .note { font-size: 0.8em; font-weight: 200; display: block; margin-top: 1.4rem; }
+    </style>
 @endsection
 
 @section('scripts')
