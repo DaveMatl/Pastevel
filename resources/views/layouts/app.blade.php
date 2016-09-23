@@ -22,6 +22,8 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+
+    @yield('scripts.header')
 </head>
 <body>
     <nav class="navbar navbar-default navbar-static-top">

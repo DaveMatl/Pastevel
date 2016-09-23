@@ -8,6 +8,7 @@ use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
+use Faker\Factory as Faker;
 
 class FileController extends Controller
 {
@@ -48,8 +49,14 @@ class FileController extends Controller
      */
     public function store(Request $request)
     {
+        if ( ! $request->has('key') )
+        {
+            $word = Faker::create()->word();
+            $request->merge(['key'=>$word . random_int(1, 1000)]);
+        }
+
         $this->validate($request, [
-            'key' => 'required|unique:files|max:25',
+            'key' => 'required|unique:files|max:255',
             'file' => 'required',
         ]);
 
