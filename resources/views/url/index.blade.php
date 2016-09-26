@@ -30,11 +30,11 @@
                             {{ csrf_field() }}
 
                             <div class="form-group">
-                                <label class="sr-only" for="key">Key</label>
-                                <input class="form-control" type="text" name="key" id="key" value="{{ old('key') }}" placeholder="Key">
+                                <label class="" for="key">Key:</label>
+                                <input class="form-control" type="text" name="key" id="key" value="{{ old('key', $key)  }}" placeholder="Key">
                             </div>
                             <div class="form-group">
-                                <label class="sr-only" for="url">URL:</label>
+                                <label class="" for="url">URL:</label>
                                 <input class="form-control" type="text" name="url" id="url" value="{{ old('url') }}" placeholder="URL">
                             </div>
                             <div class="checkbox">

@@ -6,6 +6,7 @@ use App\Url;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
+use Faker\Factory as Faker;
 
 class UrlController extends Controller
 {
@@ -26,7 +27,9 @@ class UrlController extends Controller
     {
         $urls = Url::all();
 
-        return view('url.index')->with(['urls'=>$urls]);
+        $defaultKey = Faker::create()->word() . random_int(1, 100);
+
+        return view('url.index')->with(['urls'=>$urls, 'key'=>$defaultKey]);
     }
 
     /**
