@@ -37,11 +37,13 @@
                                 <label class="sr-only" for="url">File:</label>
                                 <input class="form-control" type="file" name="file" id="file" value="{{ old('file') }}" placeholder="URL">
                             </div>
+<!-- TODO:
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox" name="singleUse"> Single use?
                                 </label>
                             </div>
+-->
                             <button type="submit" class="btn btn-primary">Save</button>
                         </form>
 

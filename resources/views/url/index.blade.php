@@ -37,11 +37,13 @@
                                 <label class="" for="url">URL:</label>
                                 <input class="form-control" type="text" name="url" id="url" value="{{ old('url') }}" placeholder="URL">
                             </div>
+<!-- TODO:
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox" name="singleUse"> Single use?
                                 </label>
                             </div>
+-->
                             <button type="submit" class="btn btn-primary">Save</button>
                         </form>
 
